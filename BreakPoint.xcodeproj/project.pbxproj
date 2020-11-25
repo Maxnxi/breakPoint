@@ -10,13 +10,13 @@
 		27EF600579E22F8130BAB67C /* Pods_BreakPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF6B1F4900CE4B28D149EC9 /* Pods_BreakPoint.framework */; };
 		B914BF0C256BDC1F00546A01 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914BF0B256BDC1F00546A01 /* ShadowView.swift */; };
 		B914BF0F256BDF5600546A01 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914BF0E256BDF5600546A01 /* AuthService.swift */; };
+		B95BA63D256E743200499D2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B95BA63C256E743200499D2E /* GoogleService-Info.plist */; };
 		B987B8C125669550005CFCD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8C025669550005CFCD8 /* AppDelegate.swift */; };
 		B987B8C325669550005CFCD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8C225669550005CFCD8 /* SceneDelegate.swift */; };
 		B987B8C525669550005CFCD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8C425669550005CFCD8 /* ViewController.swift */; };
 		B987B8C825669550005CFCD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B987B8C625669550005CFCD8 /* Main.storyboard */; };
 		B987B8CA25669553005CFCD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B987B8C925669553005CFCD8 /* Assets.xcassets */; };
 		B987B8CD25669553005CFCD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B987B8CB25669553005CFCD8 /* LaunchScreen.storyboard */; };
-		B987B8D7256A3308005CFCD8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B987B8D6256A3308005CFCD8 /* GoogleService-Info.plist */; };
 		B987B8F3256A37F3005CFCD8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8F2256A37F3005CFCD8 /* DataService.swift */; };
 		B987B8F6256A800B005CFCD8 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8F5256A800B005CFCD8 /* AuthVC.swift */; };
 		B987B8F9256A8028005CFCD8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8F8256A8028005CFCD8 /* LoginVC.swift */; };
@@ -27,6 +27,7 @@
 		8D78272AB07835F88854943F /* Pods-BreakPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.release.xcconfig"; path = "Target Support Files/Pods-BreakPoint/Pods-BreakPoint.release.xcconfig"; sourceTree = "<group>"; };
 		B914BF0B256BDC1F00546A01 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		B914BF0E256BDF5600546A01 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B95BA63C256E743200499D2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B987B8BD25669550005CFCD8 /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B987B8C025669550005CFCD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B987B8C225669550005CFCD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		B987B8C925669553005CFCD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B987B8CC25669553005CFCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B987B8CE25669553005CFCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B987B8D6256A3308005CFCD8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B987B8F2256A37F3005CFCD8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B987B8F5256A800B005CFCD8 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		B987B8F8256A8028005CFCD8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 				B987B8C925669553005CFCD8 /* Assets.xcassets */,
 				B987B8CB25669553005CFCD8 /* LaunchScreen.storyboard */,
 				B987B8CE25669553005CFCD8 /* Info.plist */,
-				B987B8D6256A3308005CFCD8 /* GoogleService-Info.plist */,
+				B95BA63C256E743200499D2E /* GoogleService-Info.plist */,
 			);
 			path = BreakPoint;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B987B8CD25669553005CFCD8 /* LaunchScreen.storyboard in Resources */,
-				B987B8D7256A3308005CFCD8 /* GoogleService-Info.plist in Resources */,
+				B95BA63D256E743200499D2E /* GoogleService-Info.plist in Resources */,
 				B987B8CA25669553005CFCD8 /* Assets.xcassets in Resources */,
 				B987B8C825669550005CFCD8 /* Main.storyboard in Resources */,
 			);
