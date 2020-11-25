@@ -11,6 +11,8 @@
 		B914BF0C256BDC1F00546A01 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914BF0B256BDC1F00546A01 /* ShadowView.swift */; };
 		B914BF0F256BDF5600546A01 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914BF0E256BDF5600546A01 /* AuthService.swift */; };
 		B95BA63D256E743200499D2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B95BA63C256E743200499D2E /* GoogleService-Info.plist */; };
+		B95BA640256E7E1F00499D2E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BA63F256E7E1F00499D2E /* FeedVC.swift */; };
+		B95BA643256E7E3900499D2E /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BA642256E7E3900499D2E /* GroupsVC.swift */; };
 		B987B8C125669550005CFCD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8C025669550005CFCD8 /* AppDelegate.swift */; };
 		B987B8C325669550005CFCD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8C225669550005CFCD8 /* SceneDelegate.swift */; };
 		B987B8C525669550005CFCD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8C425669550005CFCD8 /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 		B914BF0B256BDC1F00546A01 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		B914BF0E256BDF5600546A01 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B95BA63C256E743200499D2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B95BA63F256E7E1F00499D2E /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		B95BA642256E7E3900499D2E /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		B987B8BD25669550005CFCD8 /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B987B8C025669550005CFCD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B987B8C225669550005CFCD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 			children = (
 				B987B8F5256A800B005CFCD8 /* AuthVC.swift */,
 				B987B8F8256A8028005CFCD8 /* LoginVC.swift */,
+				B95BA63F256E7E1F00499D2E /* FeedVC.swift */,
+				B95BA642256E7E3900499D2E /* GroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,12 +267,14 @@
 			files = (
 				B987B8F6256A800B005CFCD8 /* AuthVC.swift in Sources */,
 				B987B8C525669550005CFCD8 /* ViewController.swift in Sources */,
+				B95BA640256E7E1F00499D2E /* FeedVC.swift in Sources */,
 				B987B8FC256A80A1005CFCD8 /* InsetTxtField.swift in Sources */,
 				B914BF0F256BDF5600546A01 /* AuthService.swift in Sources */,
 				B987B8F9256A8028005CFCD8 /* LoginVC.swift in Sources */,
 				B914BF0C256BDC1F00546A01 /* ShadowView.swift in Sources */,
 				B987B8C125669550005CFCD8 /* AppDelegate.swift in Sources */,
 				B987B8C325669550005CFCD8 /* SceneDelegate.swift in Sources */,
+				B95BA643256E7E3900499D2E /* GroupsVC.swift in Sources */,
 				B987B8F3256A37F3005CFCD8 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
