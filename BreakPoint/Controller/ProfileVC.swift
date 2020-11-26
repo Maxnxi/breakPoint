@@ -1,5 +1,5 @@
 //
-//  GroupsVC.swift
+//  ProfileVC.swift
 //  BreakPoint
 //
 //  Created by Maksim Ponomarev on 25.11.2020.
@@ -7,18 +7,19 @@
 
 import UIKit
 
-class GroupsVC: UIViewController {
+class ProfileVC: UIViewController {
+
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var profileLbl: UILabel!
+    @IBOutlet weak var profileImgView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
-    
-    @IBAction func plusBtnWasPressd(_ sender: Any) {
-    }
-    
     
 
+    
+    @IBOutlet weak var logoutBtnWasPressd: NSLayoutConstraint!
+    
 }

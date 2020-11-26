@@ -10,9 +10,12 @@
 		27EF600579E22F8130BAB67C /* Pods_BreakPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF6B1F4900CE4B28D149EC9 /* Pods_BreakPoint.framework */; };
 		B914BF0C256BDC1F00546A01 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914BF0B256BDC1F00546A01 /* ShadowView.swift */; };
 		B914BF0F256BDF5600546A01 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B914BF0E256BDF5600546A01 /* AuthService.swift */; };
-		B95BA63D256E743200499D2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B95BA63C256E743200499D2E /* GoogleService-Info.plist */; };
 		B95BA640256E7E1F00499D2E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BA63F256E7E1F00499D2E /* FeedVC.swift */; };
 		B95BA643256E7E3900499D2E /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BA642256E7E3900499D2E /* GroupsVC.swift */; };
+		B95BA656256E8C1500499D2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B95BA655256E8C1500499D2E /* GoogleService-Info.plist */; };
+		B95BA659256E8CA600499D2E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BA658256E8CA600499D2E /* ProfileVC.swift */; };
+		B95BA65C256E928D00499D2E /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BA65B256E928D00499D2E /* CreatePostVC.swift */; };
+		B95F66A3256FC81C00F02FCE /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F66A2256FC81C00F02FCE /* UIViewExt.swift */; };
 		B987B8C125669550005CFCD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8C025669550005CFCD8 /* AppDelegate.swift */; };
 		B987B8C325669550005CFCD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8C225669550005CFCD8 /* SceneDelegate.swift */; };
 		B987B8C525669550005CFCD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987B8C425669550005CFCD8 /* ViewController.swift */; };
@@ -29,9 +32,12 @@
 		8D78272AB07835F88854943F /* Pods-BreakPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.release.xcconfig"; path = "Target Support Files/Pods-BreakPoint/Pods-BreakPoint.release.xcconfig"; sourceTree = "<group>"; };
 		B914BF0B256BDC1F00546A01 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		B914BF0E256BDF5600546A01 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		B95BA63C256E743200499D2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B95BA63F256E7E1F00499D2E /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		B95BA642256E7E3900499D2E /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
+		B95BA655256E8C1500499D2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B95BA658256E8CA600499D2E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		B95BA65B256E928D00499D2E /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		B95F66A2256FC81C00F02FCE /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		B987B8BD25669550005CFCD8 /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B987B8C025669550005CFCD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B987B8C225669550005CFCD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +83,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B95F66A1256FC80400F02FCE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B95F66A2256FC81C00F02FCE /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B987B8B425669550005CFCD8 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +114,7 @@
 			children = (
 				B987B8F0256A37DC005CFCD8 /* Services */,
 				B987B8EB256A37BB005CFCD8 /* Model */,
+				B95F66A1256FC80400F02FCE /* Extensions */,
 				B987B8E9256A37B3005CFCD8 /* View */,
 				B987B8EC256A37C1005CFCD8 /* Controller */,
 				B987B8C025669550005CFCD8 /* AppDelegate.swift */,
@@ -109,7 +124,7 @@
 				B987B8C925669553005CFCD8 /* Assets.xcassets */,
 				B987B8CB25669553005CFCD8 /* LaunchScreen.storyboard */,
 				B987B8CE25669553005CFCD8 /* Info.plist */,
-				B95BA63C256E743200499D2E /* GoogleService-Info.plist */,
+				B95BA655256E8C1500499D2E /* GoogleService-Info.plist */,
 			);
 			path = BreakPoint;
 			sourceTree = "<group>";
@@ -134,9 +149,11 @@
 			isa = PBXGroup;
 			children = (
 				B987B8F5256A800B005CFCD8 /* AuthVC.swift */,
+				B95BA65B256E928D00499D2E /* CreatePostVC.swift */,
 				B987B8F8256A8028005CFCD8 /* LoginVC.swift */,
 				B95BA63F256E7E1F00499D2E /* FeedVC.swift */,
 				B95BA642256E7E3900499D2E /* GroupsVC.swift */,
+				B95BA658256E8CA600499D2E /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -210,7 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B987B8CD25669553005CFCD8 /* LaunchScreen.storyboard in Resources */,
-				B95BA63D256E743200499D2E /* GoogleService-Info.plist in Resources */,
+				B95BA656256E8C1500499D2E /* GoogleService-Info.plist in Resources */,
 				B987B8CA25669553005CFCD8 /* Assets.xcassets in Resources */,
 				B987B8C825669550005CFCD8 /* Main.storyboard in Resources */,
 			);
@@ -265,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95F66A3256FC81C00F02FCE /* UIViewExt.swift in Sources */,
+				B95BA659256E8CA600499D2E /* ProfileVC.swift in Sources */,
 				B987B8F6256A800B005CFCD8 /* AuthVC.swift in Sources */,
+				B95BA65C256E928D00499D2E /* CreatePostVC.swift in Sources */,
 				B987B8C525669550005CFCD8 /* ViewController.swift in Sources */,
 				B95BA640256E7E1F00499D2E /* FeedVC.swift in Sources */,
 				B987B8FC256A80A1005CFCD8 /* InsetTxtField.swift in Sources */,
