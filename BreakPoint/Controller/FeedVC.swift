@@ -28,7 +28,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         DataService.instance.getAllFeedMessages { (retunedMessagesArray) in
-            self.messageArray = retunedMessagesArray
+            self.messageArray = retunedMessagesArray.reversed()
             self.tableView.reloadData()
         }
     }
@@ -51,7 +51,10 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let image = UIImage(named: "defaultProfileImage")
         let message = messageArray[indexPath.row]
         
-        cell.configureCell(profileImage: image!, email: message.senderId, content: message.content)
+        DataService.instance.getUserName(forUID: message.senderId) { (returnedUserName) in
+            cell.configureCell(profileImage: image!, email: returnedUserName, content: message.content)
+
+        }
         return cell
     }
 

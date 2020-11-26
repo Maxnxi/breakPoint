@@ -10,8 +10,10 @@ import UIKit
 class FeedCell: UITableViewCell {
 
     @IBOutlet weak var userProfileImage: UIImageView!
-    @IBOutlet weak var messageOfUserLbl: UILabel!
     @IBOutlet weak var userEmailLbl: UILabel!
+    @IBOutlet weak var messageOfUserLbl: UILabel!
+    //    @IBOutlet weak var messageOfUserLbl: UILabel!
+//    @IBOutlet weak var userEmailLbl: UILabel!
     
     
     

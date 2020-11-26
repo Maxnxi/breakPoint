@@ -154,10 +154,10 @@
 		B987B8EC256A37C1005CFCD8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B95BA63F256E7E1F00499D2E /* FeedVC.swift */,
 				B987B8F5256A800B005CFCD8 /* AuthVC.swift */,
 				B95BA65B256E928D00499D2E /* CreatePostVC.swift */,
 				B987B8F8256A8028005CFCD8 /* LoginVC.swift */,
-				B95BA63F256E7E1F00499D2E /* FeedVC.swift */,
 				B95BA642256E7E3900499D2E /* GroupsVC.swift */,
 				B95BA658256E8CA600499D2E /* ProfileVC.swift */,
 			);
